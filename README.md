@@ -30,29 +30,6 @@ Un bot Telegram intelligent pour naviguer et découvrir les produits disponibles
 2. Python 3.8+ installé
 3. Geckodriver installé (https://github.com/mozilla/geckodriver/releases)
 
-### Installation Pas à Pas
-
-1. Cloner le dépôt :
-git clone https://github.com/MedusaSH/JoyaGooSheets-Bot.git
-cd JoyaGooSheets-Bot
-
-2. Installer les dépendances :
-pip install -r requirements.txt
-
-3. Configurer le bot :
-cp config.example.py config.py
-Editer config.py avec votre token Telegram
-
-4. Lancer le bot :
-python main.py
-
-## Structure des Fichiers
-main.py - Point d'entrée principal
-scraper.py - Module de scraping
-handlers.py - Gestionnaires Telegram
-config.py - Fichier de configuration
-requirements.txt - Dépendances
-telegram_cache/ - Dossier de cache
 
 ## Comment Contribuer 🤝
 1. Forker le projet
